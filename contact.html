@@ -10,11 +10,13 @@
     <meta name="keywords" content="flowers, bouqet, wedding flowers">
     <meta name="author" content="Anastasiia Bondarenko">
     <link rel="stylesheet" href="assets1/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Saira+Condensed:wght@200&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <!-- header -->
     <header>
+
         <div class="container">
             <div class="wrapper">
 
@@ -23,21 +25,51 @@
                 </div>
             </div>
             <ul class="nav">
-                <li><a href="@" class="first current">Home</a></li>
-                <li><a href="@">Our Gallery</a></li>
-                <li><a href="@">Contact Us</a></li>
-
+                <li><a href="index1.html" target="_blank">Home</a></li>
+                <li><a href="gallery.html" target="_blank">Our Gallery</a></li>
+                <li><a href="contact.html" class="first current" target="_blank">Contact Us</a></li>
             </ul>
         </div>
     </header>
-    <form id="form" class="topBefore">
 
-        <input id="name" type="text" placeholder="NAME">
-        <input id="email" type="text" placeholder="E-MAIL">
-        <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-        <input id="submit" type="submit" value="GO!">
+    <div class="form-container">
+        <div>
+            <h1>contact us</h1>
+        </div>
+        <div class="row">
+            <h4 style="text-align:center">We'd love to hear from you!</h4>
+        </div>
+        <div class="row input-container">
+            <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <input type="text" required />
+                    <label>Name</label>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input">
+                    <input type="text" required />
+                    <label>Email</label>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input" style="float:right;">
+                    <input type="text" required />
+                    <label>Phone Number</label>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <textarea required></textarea>
+                    <label>Message</label>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="btn-lrg submit-btn">Send Message</div>
+            </div>
+        </div>
+    </div>
 
-    </form>
 
 
 
