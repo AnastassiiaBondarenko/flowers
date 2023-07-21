@@ -10,8 +10,9 @@
     <meta name="keywords" content="flowers, bouqet, wedding flowers">
     <meta name="author" content="Anastasiia Bondarenko">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Saira+Condensed:wght@200&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Fauna+One&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
@@ -32,43 +33,45 @@
         </div>
     </header>
 
-    <form method="get" class="form-container">
+    <div class="form-container">
         <div>
             <h1>contact us</h1>
         </div>
         <div class="row">
             <h4 style="text-align:center">We'd love to hear from you!</h4>
         </div>
-        <div class="row input-container">
-            <div class="col-xs-12">
-                <div class="styled-input wide">
-                    <input type="text" id="name" required />
-                    <label for="name">Name</label>
-                </div>
+        <form class="row input-container" method="GET" action="response.html">
+
+
+
+            <div class="styled-input wide">
+                <input type="text" id="name" required />
+                <label for="name">Name</label>
             </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="styled-input">
-                    <input type="text" id="email" required />
-                    <label for="email">Email</label>
-                </div>
+
+
+            <div class="styled-input">
+                <input type="text" id="email" required />
+                <label for="email">Email</label>
             </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="styled-input" style="float:right;">
-                    <input type="text" id="number" />
-                    <label for="number">Phone Number (optinal)</label>
-                </div>
+
+
+            <div class="styled-input number">
+                <input type="text" id="number" />
+                <label for="number">Phone Number (optinal)</label>
             </div>
-            <div class="col-xs-12">
-                <div class="styled-input wide">
-                    <textarea id="message" required></textarea>
-                    <label for="message">Message</label>
-                </div>
+
+
+            <div class="styled-input wide">
+                <textarea id="message" required></textarea>
+                <label for="message">Message</label>
             </div>
-            <div class="col-xs-12">
-                <button type="submit" class="btn-lrg submit-btn">Send Message</button>
+            <div>
+                <button type="submit" class="submit-btn">Send Message</button>
             </div>
-        </div>
-    </form>
+        </form>
+    </div>
+
 
 
 
