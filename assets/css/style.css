@@ -59,7 +59,7 @@ select {
 }
 
 .container {
-    width: 990px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -103,7 +103,7 @@ header {
 
 header .logo {
     float: left;
-    padding: 150px 0 0 100px;
+    padding: 150px 0 0 200px;
 }
 
 
@@ -113,7 +113,8 @@ header .nav {
     font-size: 1.5em;
     position: absolute;
     top: 30px;
-    width: 990px;
+    width: 100%;
+
 }
 
 header .nav li {
@@ -289,9 +290,10 @@ p {
 }
 
 #content .inside {
-    margin-top: -27rem;
-    margin-left: 37rem;
-    margin-right: -15rem;
+    text-align: right;
+    margin-top: -30rem;
+    margin-left: 40rem;
+    margin-right: 5rem;
 
 }
 
@@ -496,8 +498,15 @@ input[type=checkbox]:checked+label {
         display: flex;
         flex-direction: column;
         justify-content: right;
-        padding-right: 15rem;
-        padding-left: -10rem;
+        width: 75%;
+
+
+    }
+
+    #content .inside {
+
+        margin-right: -3.5rem;
+
     }
 
     #content .flower1 {
@@ -511,6 +520,8 @@ input[type=checkbox]:checked+label {
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
+
+
     header {
         height: 65%;
         display: flex;
@@ -525,12 +536,12 @@ input[type=checkbox]:checked+label {
         padding-top: 7rem;
     }
 
-    #content .wrapper {
+    #content .inside {
         display: flex;
         flex-direction: column;
         justify-content: right;
-        padding-right: 20rem;
-        padding-left: -15rem;
+        margin-right: -3rem;
+
     }
 }
 
@@ -546,12 +557,17 @@ input[type=checkbox]:checked+label {
         justify-content: flex-start;
     }
 
-    #content .wrapper {
+
+
+
+
+    #content .inside {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        padding-top: 26rem;
-        margin-left: -32rem;
+        justify-content: center;
+        text-align: center;
+        padding-top: 32rem;
+        margin-left: 5rem;
 
     }
 
