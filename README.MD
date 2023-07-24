@@ -24,13 +24,13 @@ The site can be accessed by this [link](https://github.com/AnastassiiaBondarenko
 
 ### Home, Our Gallery, Contact Us.
 
-## Home paige
+## Home page
 
 * The Home page tells a bit of information about our company and tries to interest the user by telling them about our advantages and why they should choose our company.
 
 ## Our Gallery
 
-* Our Gallery paige provides examples of our company's work to show the user the professionalism of our florists.
+* Our Gallery page provides examples of our company's work to show the user the professionalism of our florists.
 A wide variety of bouquets are shown, including wedding bouquets.
 In the future, prices for each example bouquet may be added.
 
@@ -44,6 +44,17 @@ In the future, prices for each example bouquet may be added.
 
 ### And when you hover your mouse over each link on this website the links change colour, this is designed for user convenience and understanding clickable links.
 
+## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+ 
+- [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
+- [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
+- [Git](https://git-scm.com/) was used for the version control of the website.
+- [GitHub](https://github.com/) was used to host the code of the website.
+
 
 ## Design
 
@@ -52,6 +63,14 @@ In the future, prices for each example bouquet may be added.
 ![Color pallet](documentation/color_pallet.png)
 
 - This site is designed in specific colours for a pleasant visual range. The colours match each other and the bouquets provided in our gallery.
+
+### Wireframes
+
+#### Desktop
+- [Home Page. Desktop Screen](documentation/home_page.png)
+- [Gallery Page. Desktop Screen](documentation/gallery_page.png)
+- [Contact Page. Desktop Screen](documentation/contact_page.png)
+
 
 
 ### Typography
@@ -84,3 +103,6 @@ In the future, prices for each example bouquet may be added.
     - [10th image](https://unsplash.com/photos/FngV7Tk6Lqg)
     - [11th image](https://unsplash.com/photos/1m-O865U6Go)
     - [12th image](https://unsplash.com/photos/x4YEK7o8L0c)
+
++ Contact Us:
+  - [1st image](https://unsplash.com/photos/--OZtMyddAE)
