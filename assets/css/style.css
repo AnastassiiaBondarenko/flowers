@@ -338,21 +338,22 @@ p {
 
 }
 
-.form-container h1 {
+.form-container h2 {
     font-family: 'Cinzel', sans-serif;
     font-weight: 600;
-    font-size: 72px;
+    font-size: 60px;
     color: #cc7178;
     ;
     text-align: center;
 }
 
-.form-container h4 {
+.form-container h3 {
     font-family: 'Cinzel', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     color: #c7d9b7;
     line-height: 1.5;
+    text-align: center;
 }
 
 
@@ -462,6 +463,19 @@ input[type=checkbox]+label {
 input[type=checkbox]:checked+label {
     color: #f00;
     font-style: normal;
+}
+
+/* response page  */
+.response-text {
+    background-color: rgba(223, 174, 180, 0.7);
+    border: 4px solid;
+    border-radius: 1rem;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem;
 }
 
 /* media  */
