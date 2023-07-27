@@ -610,14 +610,45 @@ input[type=checkbox]:checked+label {
 
     #content .flower1 {
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        width: 30rem;
-        height: 30rem;
-        padding-left: 5rem;
+        align-items: center;
     }
 
     .choose-us {
         margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    header {
+        height: 225px;
+    }
+
+    header .logo {
+        top: 18%
+    }
+
+    header ul {
+
+        display: flex;
+        justify-content: space-between;
+
+
+
+
+    }
+
+    header .nav li a {
+        padding: 0 1rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+    #content .flower1 {
+        width: 25rem;
+        height: 25rem;
     }
 }
