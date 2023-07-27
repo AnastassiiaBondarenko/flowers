@@ -1,4 +1,4 @@
-/* main  */
+/* global  */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -64,7 +64,7 @@ select {
 
 
 
-/* list  */
+/* navigation */
 ul {
     list-style: none;
 }
@@ -106,7 +106,6 @@ header .logo {
     top: 30%;
     left: 40%;
     transform: translate(-50%, -50%);
-
 }
 
 
@@ -117,7 +116,6 @@ header .nav {
     position: absolute;
     top: 30px;
     width: 100%;
-
 }
 
 header .nav li {
@@ -128,7 +126,6 @@ header .nav li a {
     color: #89023e;
     text-decoration: none;
     text-transform: uppercase;
-
     padding: 0 47px 0 50px;
 }
 
@@ -146,26 +143,6 @@ header .nav li a.first {
     border: none;
 }
 
-/* social  */
-.social-networks {
-    text-align: center;
-
-}
-
-.social-networks li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #66a36c;
-}
-
-.social-networks i:hover {
-    color: #89023e
-}
 
 /* text settings  */
 
@@ -489,6 +466,26 @@ input[type=checkbox]:checked+label {
     font-style: normal;
 }
 
+/* social links  */
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #66a36c;
+}
+
+.social-networks i:hover {
+    color: #89023e
+}
+
 /* response page  */
 .response-text {
     background-color: rgba(223, 174, 180, 0.7);
@@ -503,19 +500,7 @@ input[type=checkbox]:checked+label {
 }
 
 /* media  */
-@media (max-width: 768px) {
-    .submit-btn {
-        width: 100%;
-        float: none;
-        text-align: center;
-    }
-}
 
-@media only screen and (max-width: 768px) {
-    .styled-input {
-        width: 100%;
-    }
-}
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
@@ -606,8 +591,15 @@ input[type=checkbox]:checked+label {
     }
 
 
+    .submit-btn {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
 
-
+    .styled-input {
+        width: 100%;
+    }
 
     #content .inside {
         display: flex;
