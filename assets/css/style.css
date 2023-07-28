@@ -294,6 +294,7 @@ p {
     padding-top: 85px;
     padding-bottom: 60px;
     background-size: cover;
+    background-position: center;
 }
 
 .form-container h2 {
@@ -593,11 +594,39 @@ input[type=checkbox]:checked+label {
     h1 {
         font-size: 35px;
     }
+
+    /* response page  */
+    .response-text {
+        padding: 6rem;
+        margin: 4rem;
+    }
+
+    .form-container h2 {
+        font-size: 35px;
+    }
+
+    .form-container h3 {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 450px) {
     #content .flower1 {
         width: 25rem;
         height: 25rem;
+    }
+
+    /* response page  */
+    .response-text {
+        padding: 4rem;
+        margin: 2rem;
+    }
+
+    .form-container h2 {
+        font-size: 25px;
+    }
+
+    .form-container h3 {
+        font-size: 10px;
     }
 }
