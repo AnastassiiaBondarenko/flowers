@@ -616,6 +616,11 @@ input[type=checkbox]:checked+label {
         height: 25rem;
     }
 
+    .logo span {
+        font-size: 10px;
+        padding-left: 2rem;
+    }
+
     /* response page  */
     .response-text {
         padding: 4rem;

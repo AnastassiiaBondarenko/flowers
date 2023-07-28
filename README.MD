@@ -6,7 +6,7 @@ The user can contact the company to order or if they have any questions.
 The site can be accessed by this [link](https://github.com/AnastassiiaBondarenko/flowers/blob/main/index.html)
 
 
-
+---
 
 
 
@@ -26,7 +26,7 @@ The site can be accessed by this [link](https://github.com/AnastassiiaBondarenko
 ### Frequent Visitor Goals:
 * As a Frequent User, I want to check whether there are any changes with flowers and bouquets, so I can make a choice which flower bunch I want to order.
 * As a Frequent User, I want to have options for the reason to contact the company, so I can get an explicit answer to my email or by phone number. 
-
+---
 
 ## Navigation
 
@@ -53,7 +53,7 @@ In the future, prices for each example bouquet may be added.
 ### Each page has a header with the name of the company,main picture and links to the 3 pages of the site. Also at the bottom of the each page has a footer with links to all possible social networks of the company.
 
 ### And when you hover your mouse over each link on this website the links change colour, this is designed for user convenience and understanding clickable links.
-
+---
 ## Technologies Used
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
@@ -65,7 +65,7 @@ In the future, prices for each example bouquet may be added.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
 
-
+---
 ## Design
 
 ### Color Scheme
@@ -96,23 +96,30 @@ In the future, prices for each example bouquet may be added.
 ---
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+- The site has been deployed on GitHub pages. The deployment steps are as follows: 
   - In the [GitHub repository](https://github.com/AnastassiiaBondarenko/flowers), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
-  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  - The page will automatically refresh with a detailed ribbon indicating the successful deployment.
 
 The live link can be found [here](https://AnastassiiaBondarenko.github.io/flowers)
 
 ## Local Deployment
 
-In order to make a local copy of this project, you can clone it.
-In your IDE Terminal, type the following command to clone my repository:
+In order to create a local copy of this project, you can clone it.
+In the IDE terminal, enter the following command to clone my repository:
 
 - `git clone https://github.com/AnastassiiaBondarenko/flowers.git`
 
 - Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/AnastassiiaBondarenko/flowers), which will start the Gitpod workspace for you.
 
 ---
+
+## Testing
+
+Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+
+---
+
 
 ## Credits
 + #### Media 
