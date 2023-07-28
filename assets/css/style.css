@@ -522,7 +522,6 @@ input[type=checkbox]:checked+label {
     #content {
         height: 700px;
         display: flex;
-        flex-direction: block;
         justify-content: space-between;
         padding: 2rem;
     }
