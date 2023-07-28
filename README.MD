@@ -17,24 +17,34 @@ The site can be accessed by this [link](https://github.com/AnastassiiaBondarenko
 * As a first time visitor, I want to easily navigate the site to find the content I want.
 * As a first time visitor, I want to see examples of flower bouquets to see if the organisation is trustworthy.
 
+### Returning VisitorGoals:
+
+* As a Returning Visitor, I want to see new examples of flowers.
+* As a Returning Visitor, I want to find a way to contact the organization, so that I can ask additional questions or report any kind of problems.
+* As a Returning Visitor, I want to find community links, so that I can learn more about the organization and find some reviews.
+
+### Frequent Visitor Goals:
+* As a Frequent User, I want to check whether there are any changes with flowers and bouquets, so I can make a choice which flower bunch I want to order.
+* As a Frequent User, I want to have options for the reason to contact the company, so I can get an explicit answer to my email or by phone number. 
+
 
 ## Navigation
 
-## Main navigation:
+### Main navigation:
 
-### Home, Our Gallery, Contact Us.
+-  Home, Our Gallery, Contact Us.
 
-## Home page
+### Home page
 
 * The Home page tells a bit of information about our company and tries to interest the user by telling them about our advantages and why they should choose our company.
 
-## Our Gallery
+### Our Gallery
 
 * Our Gallery page provides examples of our company's work to show the user the professionalism of our florists.
 A wide variety of bouquets are shown, including wedding bouquets.
 In the future, prices for each example bouquet may be added.
 
-## Contact Us
+### Contact Us
 
 * A contact us form is provided, where the user can leave a message with their questions or suggestions and the company will contact them in a short time. the user cannot place an order through this website, only to get to know our company.
 
@@ -83,6 +93,26 @@ In the future, prices for each example bouquet may be added.
 
 - Cinzel Google Font was used to draw users' attention to the company name and highlight the main headlines.
 
+---
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/AnastassiiaBondarenko/flowers), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://AnastassiiaBondarenko.github.io/flowers)
+
+## Local Deployment
+
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/AnastassiiaBondarenko/flowers.git`
+
+- Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/AnastassiiaBondarenko/flowers), which will start the Gitpod workspace for you.
+
+---
 
 ## Credits
 + #### Media 
