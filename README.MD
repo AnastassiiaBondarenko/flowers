@@ -3,12 +3,13 @@
 Aesthetic Bouquet is a website that allows the user to browse through a gallery of bouquets for any occasion. it is not a full-fledged flower shop, as there is no possibility to order flowers online on this website.
 The user can contact the company to order or if they have any questions.
 
-The site can be accessed by this [link](https://github.com/AnastassiiaBondarenko/flowers/blob/main/index.html)
+The site can be accessed by this [link](https://AnastassiiaBondarenko.github.io/flowers/)
 
+![full picture](documentation/full.png)
 
 ---
 
-
+## Visitor Goals
 
 
 ### First Time Visitor Goals:
@@ -17,7 +18,7 @@ The site can be accessed by this [link](https://github.com/AnastassiiaBondarenko
 * As a first time visitor, I want to easily navigate the site to find the content I want.
 * As a first time visitor, I want to see examples of flower bouquets to see if the organisation is trustworthy.
 
-### Returning VisitorGoals:
+### Returning Visitor Goals:
 
 * As a Returning Visitor, I want to see new examples of flowers.
 * As a Returning Visitor, I want to find a way to contact the organization, so that I can ask additional questions or report any kind of problems.
@@ -29,6 +30,7 @@ The site can be accessed by this [link](https://github.com/AnastassiiaBondarenko
 ---
 
 ## Navigation
+![header picture](documentation/header.png)
 
 ### Main navigation:
 
@@ -101,7 +103,7 @@ In the future, prices for each example bouquet may be added.
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will automatically refresh with a detailed ribbon indicating the successful deployment.
 
-The live link can be found [here](https://AnastassiiaBondarenko.github.io/flowers)
+The live link can be found [here](https://AnastassiiaBondarenko.github.io/flowers/)
 
 ## Local Deployment
 
