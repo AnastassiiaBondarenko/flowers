@@ -7,7 +7,6 @@
 
 html,
 body {
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -606,6 +605,11 @@ input[type=checkbox]:checked+label {
 
     .form-container h3 {
         font-size: 15px;
+    }
+
+    form {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
