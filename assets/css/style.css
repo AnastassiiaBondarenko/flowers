@@ -431,8 +431,6 @@ input[type=checkbox]:checked+label {
     margin: 8rem;
 }
 
-
-
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     header {
@@ -476,7 +474,6 @@ input[type=checkbox]:checked+label {
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-
     header {
         height: 300px;
         display: flex;
@@ -518,7 +515,6 @@ input[type=checkbox]:checked+label {
         display: flex;
         justify-content: center;
     }
-
 
     .submit-btn {
         width: 100%;
