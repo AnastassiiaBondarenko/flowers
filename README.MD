@@ -37,16 +37,19 @@ The site can be accessed by this [link](https://AnastassiiaBondarenko.github.io/
 -  Home, Our Gallery, Contact Us.
 
 ### Home page
+![Home Page](documentation/welcome.png)
 
 * The Home page tells a bit of information about our company and tries to interest the user by telling them about our advantages and why they should choose our company.
 
 ### Our Gallery
+![Gallery Page](documentation/gallery1.png)
 
 * Our Gallery page provides examples of our company's work to show the user the professionalism of our florists.
 A wide variety of bouquets are shown, including wedding bouquets.
 In the future, prices for each example bouquet may be added.
 
 ### Contact Us
+![Contact Us Page](documentation/contact1.png)
 
 * A contact us form is provided, where the user can leave a message with their questions or suggestions and the company will contact them in a short time. the user cannot place an order through this website, only to get to know our company.
 
@@ -76,16 +79,7 @@ In the future, prices for each example bouquet may be added.
 
 - This site is designed in specific colours for a pleasant visual range. The colours match each other and the bouquets provided in our gallery.
 
-### Wireframes
-
-#### Desktop
-- [Home Page. Desktop Screen](documentation/home_page.png)
-- [Gallery Page. Desktop Screen](documentation/gallery_page.png)
-- [Contact Page. Desktop Screen](documentation/contact_page.png)
-
-
-
-### Typography
+### Fonts
 
 ![Main Font](documentation/main_font.png)
 
@@ -95,6 +89,12 @@ In the future, prices for each example bouquet may be added.
 
 - Cinzel Google Font was used to draw users' attention to the company name and highlight the main headlines.
 
+### Wireframes
+
+#### Desktop
+- [Home Page. Desktop Screen](documentation/home_page.png)
+- [Gallery Page. Desktop Screen](documentation/gallery_page.png)
+- [Contact Page. Desktop Screen](documentation/contact_page.png)
 ---
 ## Deployment
 
@@ -118,7 +118,7 @@ In the IDE terminal, enter the following command to clone my repository:
 
 ## Testing
 
-Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+Please refer to the [TESTING.md](TESTING.MD) file for all test-related documentation.
 
 ---
 

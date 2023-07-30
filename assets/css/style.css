@@ -33,7 +33,6 @@ select {
     font-weight: normal;
 }
 
-
 #header,
 #content,
 #footer {
@@ -49,7 +48,6 @@ select {
     width: 100%;
     margin: 0 auto;
 }
-
 
 /* navigation */
 ul {
@@ -72,8 +70,6 @@ ul li {
     color: #995267;
 }
 
-
-
 /*header*/
 header {
     height: 400px;
@@ -92,7 +88,6 @@ header .logo {
     left: 40%;
     transform: translate(-50%, -50%);
 }
-
 
 header .nav {
     text-align: center;
@@ -128,11 +123,7 @@ header .nav li a.first {
     border: none;
 }
 
-
 /* text settings  */
-
-
-
 a {
     color: #cc7178;
     outline: none;
@@ -148,7 +139,6 @@ h1 {
     font-family: 'Cinzel', sans-serif;
     font-size: 55px;
     line-height: 1em;
-
 }
 
 a h1 {
@@ -166,6 +156,7 @@ a h1 {
     color: #66a36c;
     text-transform: uppercase;
     font-weight: bold;
+    text-shadow: 2px -2px 5px #995267;
 }
 
 h2 {
@@ -177,7 +168,6 @@ h2 {
     letter-spacing: 1px;
     margin-bottom: 12px;
 }
-
 
 h3 {
     font-family: 'Cinzel', sans-serif;
@@ -205,7 +195,6 @@ p {
     font-family: 'Fauna One', sans-serif;
 }
 
-
 /* form text style  */
 .form-container h2 {
     font-family: 'Cinzel', sans-serif;
@@ -222,16 +211,11 @@ p {
     font-family: 'Cinzel', sans-serif;
     font-size: 1.7em;
     line-height: 1em;
-    font-weight: normal;
+    font-weight: bold;
     color: #66a36c;
     text-align: center;
-    text-shadow: 2px -2px 5px white;
+    text-shadow: 2px -2px 3px rgb(43, 43, 43);
 }
-
-
-
-
-
 
 /*content*/
 #content {
@@ -284,8 +268,6 @@ p {
     object-fit: cover;
 }
 
-
-
 /* form  */
 .form-container {
     background-image: url('../images/flowersform11.jpg');
@@ -301,7 +283,6 @@ p {
     font-weight: 600;
     font-size: 60px;
     color: #cc7178;
-    ;
     text-align: center;
 }
 
@@ -314,10 +295,7 @@ p {
     text-align: center;
 }
 
-
-
 /*  inputs */
-
 input:focus~label,
 textarea:focus~label,
 input:valid~label,
@@ -336,8 +314,6 @@ textarea:valid~label {
     position: relative;
     border-radius: 4px;
 }
-
-
 
 .styled-input label {
     color: white;
@@ -368,6 +344,7 @@ textarea {
     background-color: rgba(223, 174, 180, 0.7);
     color: white;
     border-radius: 4px;
+    resize: none;
 }
 
 input:focus,
